@@ -1,0 +1,100 @@
+	#header{
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: #2a2a2a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		h1{
+			display: block;
+			color:#fff;
+		}
+	}
+	#comment{
+		display: flex;
+		#addComment{
+			flex:4;
+			width: 40%;
+			height: 300px;
+			margin-left: 20px;
+			position: relative;
+			label{
+				display: block;	
+				width: 100%;
+				margin-top: 20px;
+				font-size: 17px;
+			}
+			textarea{
+				width: 65%;
+				height: 100px;
+				color:#8f8f8f;
+				padding-left:4%;
+			}
+			input{
+				width: 60%;
+				padding-left:4%;
+				color:#8f8f8f;
+			}
+			button{
+				position: absolute;
+				display: block;
+				background-color: green;
+				width: 50px;
+				height: 30px;
+				border-radius: 4px;
+				border:1px solid #000000;
+				outline: none;
+				top:73%;
+				left:55%;
+			}
+		}
+		#CommentList{
+			flex:6;
+			width: 60%;
+			margin-top:20px;
+				#CommentItem{
+				position: relative;
+				border:1px solid #8f8f8f;
+				height: 50px;
+					span{
+						position: absolute;
+						top:4px;
+						left:15px;
+						font-size: 18px;
+					}
+					p{
+						position: absolute;
+						top:8px;
+						left:75px;
+						color:#8f8f8f;
+					}
+					button{
+						position: absolute;
+						top:2px;
+						right:0;
+						background-color: red;
+						width: 50px;
+						height: 30px;
+						border-radius: 4px;
+						outline: none;
+						border:1px solid #000000;
+					}
+				}
+				#first{	
+					height: 300px;
+					background-color: #8f8f8f;
+					display: flex;
+					justify-content: center;
+					align-items:center;
+					span{
+						display: block;
+						color:#fff;
+					}
+					
+				}
+		}
+
+	}
+
